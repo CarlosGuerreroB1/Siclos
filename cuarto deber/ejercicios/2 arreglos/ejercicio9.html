@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos Mayores que un Valor Dado</title>
+    <link rel="stylesheet" href="../../css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Elementos Mayores que un Valor Dado</h1>
+    </header>
+    <main>
+        <section class="container">
+           
+            <label for="numeros">Ingrese 8 números separados por comas:</label>
+            <input type="text" id="numeros" placeholder="Ej: 10,20,30,40,50,60,70,80">
+
+            <label for="valorDado">Ingrese el valor a comparar:</label>
+            <input type="text" id="valorDado" placeholder="Ej: 25">
+
+            <div class="botones">                
+                <button type="button" class="boton" onclick="ope.mostrarMayores()">Aceptar</button>
+                <button type="button" class="boton" onclick="ope.limpiarResultado()">Limpiar</button>
+                <button type="button" class="boton" onclick="ope.regresarAlMenuArreglos()">Regresar</button>
+              
+            </div>
+            <div id="resultado"></div>
+
+        </section>
+    </main>
+    <footer>
+        <h6>Todos los derechos reservados - HR.</h6>
+    </footer>
+    <script src="../../js/main.js"></script>
+</body>
+</html>

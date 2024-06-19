@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contar Ocurrencias de un Número</title>
+    <link rel="stylesheet" href="../../css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Contar Ocurrencias de un Número</h1>
+    </header>
+    <main>
+        <section class="container">
+           
+            <label for="numeros">Ingrese 10 números separados por comas:</label>
+            <input type="text" id="numeros" placeholder="Ej: 1,2,3,4,5,6,7,8,9,10">
+
+            <label for="numeroABuscar">Ingrese el número a contar:</label>
+            <input type="text" id="numeroABuscar" placeholder="Ej: 5">
+
+            <div class="botones">                
+                <button type="button" class="boton" onclick="ope.contarOcurrencias()">Aceptar</button>
+                <button type="button" class="boton" onclick="ope.limpiarResultado()">Limpiar</button>
+                <button type="button" class="boton" onclick="ope.regresarAlMenuArreglos()">Regresar</button>
+            </div>
+            <div id="resultado"></div>
+        </section>
+    </main>
+    <footer>
+        <h6>Todos los derechos reservados - HR.</h6>
+    </footer>
+    <script src="../../js/main.js"></script>
+</body>
+</html>

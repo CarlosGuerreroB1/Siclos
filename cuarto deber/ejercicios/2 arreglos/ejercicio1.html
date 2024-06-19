@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Arreglos</title>
+    <link rel="stylesheet" href="../../css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Uso de Arreglos</h1>
+    </header>
+    <main>
+        <section class="container">
+            <form id="formArregloNumeros">
+                <label for="numero1">Número 1:</label>
+                <input type="number" id="numero1" placeholder="Ingresar número 1">
+
+                <label for="numero2">Número 2:</label>
+                <input type="number" id="numero2" placeholder="Ingresar número 2">
+
+                <label for="numero3">Número 3:</label>
+                <input type="number" id="numero3" placeholder="Ingresar número 3">
+
+                <label for="numero4">Número 4:</label>
+                <input type="number" id="numero4" placeholder="Ingresar número 4">
+
+                <label for="numero5">Número 5:</label>
+                <input type="number" id="numero5" placeholder="Ingresar número 5">
+
+                <div class="botones">                
+                    <button type="button" class="boton" onclick="ope.ingresarDatosArreglo()">Aceptar</button>
+                    <button type="reset" class="boton">Limpiar</button>
+                    <button type="button" class="boton" onclick="ope.regresarAlMenuArreglos()">Regresar</button>
+
+                </div>
+
+                <div id="resultadoArregloNumeros">
+                    Aquí se imprimirán todos los números del arreglo:
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h6>Todos los derechos reservados - HR.</h6>
+    </footer>
+    <script src="../../js/main.js"></script>
+</body>
+</html>
